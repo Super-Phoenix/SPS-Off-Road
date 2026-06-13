@@ -1,0 +1,33 @@
+{
+  "$schema_note": "Canonical ship catalog. asset references only — never hardcode in logic. Stats are pre-modifier base blocks.",
+  "ships": [
+    {
+      "id": "hull-xxs-01",
+      "displayName": "Pearce X4",
+      "ipSource": "star-atlas",
+      "class": "XXS",
+      "atlas": "assets/ships/hull-xxs-01/atlas.json",
+      "baseStats": { "maxSpeed": 320, "acceleration": 480, "gripFactor": 0.86, "turnRate": 3.4, "boostPower": 1.45, "boostDuration": 1.2, "mass": 1.0 },
+      "startingShip": true
+    },
+    {
+      "id": "hull-xs-01",
+      "displayName": "Opal Jet",
+      "ipSource": "star-atlas",
+      "class": "XS",
+      "atlas": "assets/ships/hull-xs-01/atlas.json",
+      "baseStats": { "maxSpeed": 345, "acceleration": 430, "gripFactor": 0.82, "turnRate": 3.0, "boostPower": 1.5, "boostDuration": 1.4, "mass": 1.25 },
+      "unlockCost": 2500
+    },
+    {
+      "id": "hull-s-01",
+      "displayName": "Fimbul Lowbie",
+      "ipSource": "star-atlas",
+      "class": "S",
+      "atlas": "assets/ships/hull-s-01/atlas.json",
+      "baseStats": { "maxSpeed": 300, "acceleration": 520, "gripFactor": 0.9, "turnRate": 3.8, "boostPower": 1.35, "boostDuration": 1.0, "mass": 1.1 },
+      "unlockCost": 4000
+    }
+  ],
+  "fallbackNote": "Original (non-IP) fallback set lives in ships.fallback.json with identical ids/slots — License Continuity, BUILD_SPEC §9."
+}

@@ -1,0 +1,23 @@
+{
+  "$schema_note": "Track topology as data. Units = world px. checkpoints are ordered; lap = all in order + finish line.",
+  "tracks": [
+    {
+      "id": "nebula-oval-01",
+      "name": "Nebula Oval",
+      "theme": "nebula",
+      "difficulty": 1,
+      "laps": 3,
+      "bounds": { "w": 1600, "h": 900 },
+      "outerWall": [[100,100],[1500,100],[1500,800],[100,800]],
+      "innerWall": [[420,300],[1180,300],[1180,600],[420,600]],
+      "startLine": { "a": [800,100], "b": [800,300] },
+      "gridSlots": [[760,200],[820,200],[760,250],[820,250]],
+      "checkpoints": [
+        { "a": [1500,450], "b": [1180,450] },
+        { "a": [800,800],  "b": [800,600] },
+        { "a": [100,450],  "b": [420,450] }
+      ],
+      "boostPads": [[1340,200],[260,700]]
+    }
+  ]
+}

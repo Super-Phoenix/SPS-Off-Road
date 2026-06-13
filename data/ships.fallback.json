@@ -1,0 +1,8 @@
+{
+  "$schema_note": "Original (non-IP) fallback set — License Continuity, BUILD_SPEC §9. Identical ids/slots/stats to ships.json; only names + atlas paths differ. Swap = point Boot loader here.",
+  "ships": [
+    { "id": "hull-xxs-01", "displayName": "Ember Dart",  "ipSource": "original", "class": "XXS", "atlas": "assets/ships-fallback/hull-xxs-01/atlas.json", "baseStats": { "maxSpeed": 320, "acceleration": 480, "gripFactor": 0.86, "turnRate": 3.4, "boostPower": 1.45, "boostDuration": 1.2, "mass": 1.0 }, "startingShip": true },
+    { "id": "hull-xs-01",  "displayName": "Cinder Hawk", "ipSource": "original", "class": "XS",  "atlas": "assets/ships-fallback/hull-xs-01/atlas.json",  "baseStats": { "maxSpeed": 345, "acceleration": 430, "gripFactor": 0.82, "turnRate": 3.0, "boostPower": 1.5, "boostDuration": 1.4, "mass": 1.25 }, "unlockCost": 2500 },
+    { "id": "hull-s-01",   "displayName": "Ash Runner",  "ipSource": "original", "class": "S",   "atlas": "assets/ships-fallback/hull-s-01/atlas.json",   "baseStats": { "maxSpeed": 300, "acceleration": 520, "gripFactor": 0.9, "turnRate": 3.8, "boostPower": 1.35, "boostDuration": 1.0, "mass": 1.1 }, "unlockCost": 4000 }
+  ]
+}

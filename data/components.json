@@ -1,0 +1,15 @@
+{
+  "$schema_note": "Upgrade catalog. modifiers.add applied first, then modifiers.mult. slot must match ship slot rules.",
+  "slots": ["thruster", "maneuvering", "structure", "booster", "powerplant"],
+  "components": [
+    { "id": "thr-1", "slot": "thruster",   "name": "Thruster Tune I",   "cost": 400,  "modifiers": { "add": { "acceleration": 40 }, "mult": {} } },
+    { "id": "thr-2", "slot": "thruster",   "name": "Thruster Tune II",  "cost": 1100, "modifiers": { "add": { "acceleration": 90 }, "mult": {} } },
+    { "id": "man-1", "slot": "maneuvering","name": "Gyro Array I",      "cost": 450,  "modifiers": { "add": {}, "mult": { "gripFactor": 1.05, "turnRate": 1.06 } } },
+    { "id": "man-2", "slot": "maneuvering","name": "Gyro Array II",     "cost": 1200, "modifiers": { "add": {}, "mult": { "gripFactor": 1.1,  "turnRate": 1.12 } } },
+    { "id": "str-1", "slot": "structure",  "name": "Hull Brace I",      "cost": 350,  "modifiers": { "add": { "mass": 0.05 }, "mult": { "wallPenalty": 0.85 } } },
+    { "id": "bst-1", "slot": "booster",    "name": "Afterburner I",     "cost": 500,  "modifiers": { "add": { "boostDuration": 0.3 }, "mult": {} } },
+    { "id": "bst-2", "slot": "booster",    "name": "Afterburner II",    "cost": 1300, "modifiers": { "add": { "boostDuration": 0.5 }, "mult": { "boostPower": 1.08 } } },
+    { "id": "pwr-1", "slot": "powerplant", "name": "Power Plant I",     "cost": 600,  "modifiers": { "add": { "maxSpeed": 15 }, "mult": {} } },
+    { "id": "pwr-2", "slot": "powerplant", "name": "Power Plant II",    "cost": 1500, "modifiers": { "add": { "maxSpeed": 30 }, "mult": {} } }
+  ]
+}
